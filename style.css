@@ -1,0 +1,234 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Gothic A1";
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: normal;
+}
+header {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+      287.15deg,
+      #450e4b 0%,
+      #3c0c41 24.48%,
+      rgba(207, 0, 99, 0) 100%
+    ),
+    #cf0063 no-repeat center;
+  background-size: cover;
+}
+.header_container {
+  width: 1152px;
+  height: 45px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.header_nav-bar-list {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+.header_nav-bar-link {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  color: white;
+}
+.header_nav-bar-link:hover,
+.header_nav-bar-link:focus,
+.header_nav-bar-link:active {
+  opacity: 75%;
+}
+.header-item {
+  margin-right: 30px;
+}
+.header-item:last-child {
+  margin-right: 0;
+}
+.intro {
+  height: 800px;
+  background: linear-gradient(
+      287.15deg,
+      #450e4b 0%,
+      #3c0c41 24.48%,
+      rgba(207, 0, 99, 0) 100%
+    ),
+    #cf0063 no-repeat center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+.intro-container {
+  display: flex;
+}
+.intro-title-text {
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 80px;
+  color: white;
+  margin: 0;
+}
+.intro-text-container {
+  margin-top: 300px;
+}
+.intro-text {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 44px;
+  color: white;
+}
+.intro-button {
+  height: 66px;
+  width: 170px;
+  background: #fc0a7e;
+  border-radius: 3px;
+  border: none;
+}
+.intro-button-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: white;
+}
+.intro-img {
+  height: 680px;
+  width: 652px;
+  margin-top: 120px;
+}
+.intro-img-arrow {
+  margin-top: -70px;
+  display: flex;
+  justify-content: center;
+}
+article {
+  background: #1b1b1b;
+  height: 957px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.article-container {
+  margin-top: 85px;
+  display: flex;
+  flex-direction: column;
+}
+.article-text-style {
+  text-align: center;
+}
+.article-title {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  color: #a8a8a8;
+  text-transform: uppercase;
+}
+.article-text {
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 48px;
+  color: white;
+  text-align: center;
+}
+.news {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.news-1 {
+  margin-top: 80px;
+  width: 1296px;
+  height: 637px;
+  display: flex;
+  justify-content: space-around;
+}
+.news-1-container-text {
+  display: flex;
+  flex-direction: column;
+  margin-top: 150px;
+}
+.news-1-title {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #a8a8a8;
+}
+.news-1-title-text {
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 48px;
+  color: black;
+}
+.news-1-text {
+  width: 306px;
+  height: 90px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #6b6b6b;
+}
+.activiti {
+  height: 209px;
+}
+.activiti-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.activiti-block {
+  width: 432px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.activiti-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+
+  color: #000000;
+}
+.activiti-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+
+  color: #6b6b6b;
+}
+.number {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.number-block {
+  width: 324px;
+}
+.number-title {
+  font-weight: 400;
+  font-size: 59px;
+  line-height: 90px;
+  text-align: center;
+
+  color: #333333;
+}
+.number-text {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+
+  color: #000000;
+}
